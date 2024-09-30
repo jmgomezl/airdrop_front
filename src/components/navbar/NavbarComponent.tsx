@@ -9,7 +9,7 @@ const NavbarComponent = () => {
       <Navbar.Brand href="#">Airdrop</Navbar.Brand>
       <Nav  className="justify-content-end">
             <Nav.Link href="#home">Login</Nav.Link>
-            <Nav.Link href="#features">Registro</Nav.Link>
+            <Nav.Link href="#features">Register</Nav.Link>
           </Nav>
     </Container>
   </Navbar>
