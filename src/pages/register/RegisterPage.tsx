@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import './Register.css';
+import { Link } from 'react-router-dom';
 
 const RegisterPage = () => {
     return (
@@ -56,6 +57,11 @@ const RegisterPage = () => {
                                                 <a href="#!" className="text-white"><i className="fab fa-google fa-lg"></i></a>
                                             </div>
 
+                                            </div>
+
+                                        <div>
+                                            <p className="mb-0">Already have an account? <Link to="/login" className="text-white-50 fw-bold">Login</Link>
+                                            </p>
                                         </div>
 
                                     </div>

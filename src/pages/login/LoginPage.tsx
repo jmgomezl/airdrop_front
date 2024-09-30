@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import './Login.css';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
     return (
@@ -28,7 +29,7 @@ const LoginPage = () => {
                                                 <label className="form-label" >Password</label>
                                             </div>
 
-                                            <p className="small mb-5 pb-lg-2"><a className="text-white-50" href="#!">Forgot password?</a></p>
+                                            <p className="small mb-5 pb-lg-2"><Link className="text-white-50" to="/password-recovery">Forgot password?</Link></p>
 
                                             <button data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
 
@@ -41,7 +42,7 @@ const LoginPage = () => {
                                         </div>
 
                                         <div>
-                                            <p className="mb-0">Don't have an account? <a href="#!" className="text-white-50 fw-bold">Sign Up</a>
+                                            <p className="mb-0">Don't have an account? <Link to="/register" className="text-white-50 fw-bold">Sign Up</Link>
                                             </p>
                                         </div>
 

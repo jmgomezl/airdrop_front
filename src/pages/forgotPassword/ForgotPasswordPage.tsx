@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import './ForgotPassword.css';
+import { Link } from 'react-router-dom';
 
 const ForgotPasswordPage = () => {
     return (
@@ -34,7 +35,7 @@ const ForgotPasswordPage = () => {
                                         </div>
 
                                         <div>
-                                            <p className="mb-0">Don't have an account? <a href="#!" className="text-white-50 fw-bold">Sign Up</a>
+                                            <p className="mb-0">Don't have an account? <Link to="/register" className="text-white-50 fw-bold">Sign Up</Link>
                                             </p>
                                         </div>
 
